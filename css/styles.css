@@ -3,6 +3,13 @@ font-family: 'Roboto', Verdana, Tahoma, sans-serif;
 font-style: normal;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+list-style-type: none;
+}
 
 /* основний колір тексту #757575
 колір заголовків #212121
@@ -11,6 +18,3 @@ font-style: normal;
  /* ----------- шапка ----------------- */
 
   /* ----------- секція  ----------------- */
-.list {
-    
-}
