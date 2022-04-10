@@ -3,7 +3,6 @@
   --color-text: #757575;
   --color-btn-link: #2196F3;
   --color-accent: #FFFFFF;
-  --color-logo: #2196F3;
   --color-header-logo: #000000;
   --color-footer-logo: #ffffff;
   --color-team: #F5F4FA;
@@ -65,7 +64,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.9;
 letter-spacing: 0.03em;
-color: var(--color-logo);
+color: var(--color-btn-link);
  }
 
 .header-logo {
@@ -89,6 +88,9 @@ color: var(--color-logo);
   color: var(--color-btn-link);
 }
 
+.current {
+  color: var(--color-btn-link);
+}
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -101,8 +103,15 @@ color: var(--color-logo);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--color-btn-link);
+  color: var(--color-text);
 }
+
+.header-tel:focus,
+.header-tel:hover,
+.header-email:focus,
+.header-email:hover{
+color: var(--color-btn-link);
+  }
   /* ----------- hero  ----------------- */
 .hero {
 background: #2F303A;
@@ -117,6 +126,7 @@ background: #2F303A;
   color: var(--color-accent);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -125,6 +135,11 @@ background: #2F303A;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-accent);
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background: #188CE8;
 }
 
 /* -----------------content------------------ */
@@ -190,6 +205,12 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--color-accent);
 }
+
+.footer-text:hover,
+.footer-text:focus {
+  color: var(--color-btn-link);
+}
+
 .footer-email {
   font-weight: 400;
 font-size: 14px;
@@ -204,6 +225,13 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-email:focus,
+.footer-email:hover,
+.footer-tel:focus,
+.footer-tel:hover {
+  color: var(--color-btn-link);
+}
 /* -----------------portfolio------------------ */
 .menu-btn-text {
   font-family: inherit;
@@ -214,6 +242,7 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--color-title);
+background: var(--color-team);
 }
 
 .menu-btn-text:focus,
@@ -222,6 +251,7 @@ color: var(--color-title);
   background: var(--color-btn-link);
 }
 
+.menu
 .project-title {
 font-weight: 700;
 font-size: 18px;
@@ -229,6 +259,11 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--color-title);
 }
+
+.menu > button:active {
+color: var(--color-btn-link);
+}
+
 .project-text {
 font-weight: 400;
 font-size: 16px;
