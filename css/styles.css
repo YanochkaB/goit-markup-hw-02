@@ -1,6 +1,5 @@
 :root {
   --color-title: #212121;
-  --color-text: #757575;
   --color-btn-link: #2196F3;
   --color-accent: #FFFFFF;
   --color-header-logo: #000000;
@@ -12,6 +11,7 @@
 body {
 font-family: 'Roboto', Verdana, Tahoma, sans-serif;
 font-style: normal;
+color: #757575;
 }
 
 .link {
@@ -24,6 +24,7 @@ list-style-type: none;
 
 .hero-btn {
   background: var(--color-btn-link);
+  cursor: pointer;
 }
 
 .btn {
@@ -96,14 +97,14 @@ color: var(--color-btn-link);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--color-text);
+  color: inherit;
 }
 .header-email {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--color-text);
+  color: inherit;
 }
 
 .header-tel:focus,
@@ -157,7 +158,7 @@ color: var(--color-title);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--color-text);
+  color: inherit;
 }
 
 /*------------------product----------------- */
@@ -190,7 +191,7 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--color-text);
+color: inherit;
 }
 
 /* ----------------------footer------------------ */
@@ -243,6 +244,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--color-title);
 background: var(--color-team);
+cursor: pointer;
 }
 
 .menu-btn-text:focus,
@@ -269,5 +271,5 @@ font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: var(--color-text);
+color: inherit;
 }
