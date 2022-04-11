@@ -16,6 +16,7 @@ color: #757575;
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .list {
@@ -32,7 +33,7 @@ list-style-type: none;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -130,7 +131,7 @@ background: #2F303A;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -198,7 +199,8 @@ color: inherit;
 
 .footer {
   background: var(--color-footer);
-}
+  }
+  
 .footer-text {
   font-weight: 400;
 font-size: 14px;
@@ -215,14 +217,14 @@ color: var(--color-accent);
 .footer-email {
   font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
   font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -239,7 +241,7 @@ color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1,62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--color-title);
@@ -269,7 +271,7 @@ color: var(--color-btn-link);
 .project-text {
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1,87;
 letter-spacing: 0.03em;
-color: inherit;
+color: #757575;
 }
