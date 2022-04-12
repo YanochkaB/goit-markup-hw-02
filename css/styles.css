@@ -3,10 +3,10 @@
   --color-btn-link: #2196F3;
   --color-accent: #FFFFFF;
   --color-header-logo: #000000;
-  --color-footer-logo: #ffffff;
   --color-team: #F5F4FA;
   --color-footer: #2F303A;
 }
+
 
 body {
 font-family: 'Roboto', Verdana, Tahoma, sans-serif;
@@ -98,7 +98,7 @@ color: var(--color-btn-link);
 }
 
 .footer-logo {
-  color: var(--color-footer-logo);
+  color: var(--color-accent);
 }
 
 .header-link {
@@ -122,14 +122,14 @@ color: var(--color-btn-link);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: #757575;
 }
 .header-email {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: #757575;
 }
 
 .header-tel:focus,
@@ -183,7 +183,6 @@ color: var(--color-title);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: inherit;
 }
 
 /*------------------product----------------- */
@@ -216,7 +215,6 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: inherit;
 }
 
 /* ----------------------footer------------------ */
