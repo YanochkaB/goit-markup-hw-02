@@ -36,6 +36,7 @@ button {
 
 img {
   display: block;
+}
 
 .link {
   text-decoration: none;
@@ -90,7 +91,7 @@ font-size: 26px;
 line-height: 1.9;
 letter-spacing: 0.03em;
 color: var(--color-btn-link);
- }
+}
 
 .header-logo {
   color: var(--color-header-logo);
