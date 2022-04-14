@@ -14,6 +14,7 @@ font-style: normal;
 color: #757575;
 }
 
+/* скидання базових стилів для зручності при стилізації */
 p,
 h1,
 h2,
@@ -36,6 +37,14 @@ button {
 
 img {
   display: block;
+}
+/* закінчила скидання стилів */
+
+.conteiner {
+  width: 1600;
+  padding-left: ;
+  padding-right: ;
+  margin: 0% auto;
 }
 
 .link {
